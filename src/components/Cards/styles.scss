@@ -1,0 +1,15 @@
+.items{
+  margin: auto!important
+}
+.item-card{
+  float: left;
+}
+.media{
+  cursor: pointer;
+}
+.description{
+  height: 150px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}

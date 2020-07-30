@@ -1,0 +1,10 @@
+$size-xlarge: 1280px;
+$size-medium: 960px;
+$size-tablet: 768px;
+$size-movil: 408px;
+
+$breakpoints-xlarge: "only screen and (max-width: #{$size-xlarge})";
+$breakpoints-medium: "only screen and (max-width: #{$size-medium})";
+$breakpoints-tablet: "only screen and (max-width: #{$size-tablet})";
+$breakpoints-movil: "only screen and (max-width: #{$size-movil})";
+

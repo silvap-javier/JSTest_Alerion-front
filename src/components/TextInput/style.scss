@@ -1,0 +1,55 @@
+@import "../../theme/index";
+
+.text-input {
+  position: relative;
+  border-radius: 4px;
+  border: solid 1px $color-border;
+  background-color: $color-white;
+  padding: 0 15px;
+  text-align: left;
+  margin: 1.0rem auto;
+  background-color: $color-input-background;
+
+  &--active {    
+    background-color: rgba(217, 242, 249, 0.25);
+    border: solid 1px $main-color;
+
+    .text-input__label-text {
+      color: $main-color;
+      opacity: 1.0;
+      transform: translateY(0);
+    }
+  }
+}
+
+.text-input__label-text {
+  display: block;
+  position: relative;
+  color: $main-color;
+  opacity: 0.5;
+  transform: translateY(1.9em);
+  transition: all 250ms ease-out;
+  font-size: $font-size-small;
+  font-family: $secondary-font;
+}
+
+.text-input__field {
+  width: 100%;
+  border: none;
+  background: none;
+  font-size: $font-size;
+  margin: .4em 0;
+  color: $color-black;
+  font-family: $secondary-font;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.text-input__post-icon {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  fill: $color--text-pale;
+}

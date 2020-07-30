@@ -1,0 +1,29 @@
+@import '../../theme/index';
+
+.content-form{
+    width: 650px;
+    .MuiCard-root{
+        text-align: center;
+        box-shadow: none;
+        margin-bottom: 15px;
+    }
+    &_content-inputs{
+        margin-top: 15px!important;
+    }
+}
+.error {
+    display : block;
+    color : red;
+    font-size: 14px;
+}
+.hidden {
+    display : none;
+}
+.select__option.select__option--is-focused{
+    background-color:$main-color!important;
+    color:$color-white!important;
+}
+.select__option.__menu-list,.select__option{
+    background-color:$color-white!important;
+    color:$main-color!important;
+}
